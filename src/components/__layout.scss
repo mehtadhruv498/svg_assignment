@@ -1,0 +1,28 @@
+.basic-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Style the header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 16px;
+  max-height: 100px;
+}
+
+/* Style the sidebar */
+.sidebar {
+  background-color: #555;
+  color: #fff;
+  padding: 16px;
+  width: 100px;
+  margin-right: 100px;
+}
+
+/* Style the content area */
+.content {
+  flex-grow: 1; /* Allow content to grow and occupy remaining space */
+  padding: 16px;
+}

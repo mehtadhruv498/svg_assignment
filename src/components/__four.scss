@@ -1,0 +1,8 @@
+.animated-square {
+  fill: blue;
+  transition: fill 1s ease-in-out;
+}
+
+.animated-square.animate {
+  fill: red;
+}
